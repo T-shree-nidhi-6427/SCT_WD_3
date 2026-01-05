@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  background-color:darkcyan;
+  color:beige;
+  text-align: center;
+  height: 100vh;
+}
+
+.screen {
+  display: none;
+  padding: 90px;
+}
+
+.screen.active {
+  display: block;
+}
+
+h1, h2 {
+  margin-bottom: 20px;
+  font-size: 35px;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #f97316;
+  color: black;
+  margin-top: 20px;
+}
+
+.options button {
+  display: block;
+  width: 60%;
+  margin: 10px auto;
+  background-color: #1e293b;
+  color: white;
+  border: 1px solid #334155;
+}
+
+.options button:hover {
+  background-color: #f97316;
+  color: black;
+}
+.p{
+    font-size: 25px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Survival Quest</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="surv.png">
+</head>
+<body>
+
+
+<section class="screen active" id="story">
+  <h1>🧭 SURVIVAL QUEST</h1>
+  <p>⚠️ A disaster has struck.</p>
+  <p>You are alone.<br>No help.<br>Limited resources.</p>
+  <p><strong>Every choice matters.</strong><br>
+     Make the wrong decision → Game Over.</p>
+  <button id="startBtn">START SURVIVAL</button>
+</section>
+
+
+<section class="screen" id="rules">
+  <h2>📜 SURVIVAL RULES</h2>
+
+  <p>🌟 <strong>SURVIVOR (Score 6–7)</strong><br>
+     You made smart decisions. You’re rescued!</p>
+
+  <p>😬 <strong>ALMOST (Score 3–5)</strong><br>
+     You survived, but barely.</p>
+
+  <p>💀 <strong>GAME OVER (Score &lt;3)</strong><br>
+     Survival needs calm thinking.</p>
+
+  <button id="beginBtn">BEGIN THE MISSION</button>
+</section>
+
+
+<section class="screen" id="quiz">
+  <h2 id="question"></h2>
+  <div class="options" id="options"></div>
+</section>
+
+
+<section class="screen" id="result">
+  <h2 id="resultText"></h2>
+  <p id="scoreText"></p>
+  <button onclick="location.reload()">PLAY AGAIN</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
